@@ -3,3 +3,39 @@
     margin: 0;
     padding: 0;
 }
+
+.header-container {
+    border: 3px solid red;
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+.header {
+    border: 3px solid blue;
+    display: flex;
+    justify-content: space-between;
+    width: 1025px;
+    padding: 20px;
+}
+
+.header, ul {
+    display: flex;
+}
+
+li, .header-links, a {
+    /* color: #fff; */
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+li.header-links {
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+.logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
