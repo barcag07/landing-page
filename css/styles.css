@@ -5,18 +5,19 @@
 }
 
 .header-container {
-    border: 3px solid red;
+    /* border: 3px solid red; */
     display: flex;
     justify-content: center;
     background-color: #1f2937;
 }
 
 .header {
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
     display: flex;
     justify-content: space-between;
     width: 1025px;
     padding: 20px;
+    font-weight: bold;
 }
 
 .header, ul {
@@ -38,4 +39,69 @@ li.header-links {
 .logo-text {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 135px 0;
+}
+
+.content {
+    display: flex;
+    width: 1025px;
+    justify-content: space-between;
+    /* border: 3px solid red; */
+}
+
+.text-container {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* gap: 15px; */
+    width:450px;
+}
+
+.website-is-awesome {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
+.subtext {
+    color: #e5e7eb;
+}
+
+.signup {
+    background-color: #3882f6;
+    padding: 10px 35px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    border: none;
+}
+
+.website-is-awesome,
+.subtext,
+.signup {
+    margin-bottom: 15px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid yellow; */
+    height: 240px;
+    width: 525px;
+    background-color: rgb(93, 94, 98)
+}
+
+.image-placeholder {
+    /* border: 3px solid green; */
+    color: #e5e7eb;
 }
