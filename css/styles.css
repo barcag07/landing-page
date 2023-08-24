@@ -156,3 +156,27 @@ li.header-links {
     color: #3e3f41;
     font-size: 18px;
 }
+
+.quote-container {
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 135px 330px 105px 330px;
+    gap: 5px;
+}
+
+.quote-text {
+    font-size: 36px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 900;
+    font-size: 20px;
+}
