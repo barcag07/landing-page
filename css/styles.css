@@ -212,3 +212,16 @@ li.header-links {
 .signup-for-text {
     color: white;
 }
+
+.footer {
+    background-color: #1f2937;
+    /* outline: 3px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    padding: 40px;
+    font-size: 18px;
+    color: white;
+}
