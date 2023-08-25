@@ -180,3 +180,17 @@ li.header-links {
     font-weight: 900;
     font-size: 20px;
 }
+
+.call-to-action-container {
+    display: flex;
+    padding: 55px 120px;
+    justify-content: center;
+    gap: 160px;
+    border: 3px solid red;
+}
+
+.call-to-action {
+    border: 3px solid green;
+    background-color: #3882f6;
+
+}
