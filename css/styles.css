@@ -18,11 +18,15 @@
     width: 1025px;
     padding: 20px 0;
     font-weight: bold;
+    flex: 1;
+    /* flex-wrap: wrap; */
+
 }
 
-.header, ul {
+.header ul {
     display: flex;
     gap: 25px;
+    /* border: 3px solid purple; */
 }
 
 li, .header-links, a {
@@ -30,6 +34,8 @@ li, .header-links, a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+    /* border: 3px solid green; */
+    text-align: center;
 }
 
 li.header-links {
@@ -40,6 +46,8 @@ li.header-links {
 .logo-text {
     font-size: 24px;
     color: #f9faf8;
+    /* border: 1px solid orange; */
+    text-align: center;
 }
 
 .content-container {
@@ -47,6 +55,7 @@ li.header-links {
     justify-content: center;
     background-color: #1f2937;
     padding: 135px 0;
+    
 }
 
 .content {
